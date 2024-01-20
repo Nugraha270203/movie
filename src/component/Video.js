@@ -7,7 +7,7 @@ function Video() {
             
             <div className="row">
                 <div className="col-md-3 mb-3">
-                    <div class="card" style={{ width: "16rem"}}>
+                    <div class="card" style={{ width: "17rem"}}>
                         <img src={foto1} class="card-img"></img>
                         <div class="card-img-overlay">
                             <h5 class="card-title">Card title</h5>
@@ -17,7 +17,7 @@ function Video() {
                     </div>
                 </div>
                 <div className="col-md-3 mb-3">
-                    <div class="card" style={{ width: "16rem"}}>
+                    <div class="card" style={{ width: "17rem"}}>
                         <img src={foto1} class="card-img"></img>
                         <div class="card-img-overlay">
                             <h5 class="card-title">Card title</h5>
@@ -27,7 +27,7 @@ function Video() {
                     </div>
                 </div>
                 <div className="col-md-3 mb-3">
-                    <div class="card" style={{ width: "16rem"}}>
+                    <div class="card" style={{ width: "17rem"}}>
                         <img src={foto1} class="card-img"></img>
                         <div class="card-img-overlay">
                             <h5 class="card-title">Card title</h5>
@@ -37,7 +37,7 @@ function Video() {
                     </div>
                 </div>
                 <div className="col-md-3 mb-3">
-                    <div class="card" style={{ width: "16rem" }}>
+                    <div class="card" style={{ width: "17rem" }}>
                         <img src={foto1} class="card-img"></img>
                         <div class="card-img-overlay">
                             <h5 class="card-title">Card title</h5>
