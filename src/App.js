@@ -1,6 +1,7 @@
 import Navbar from "./component/Navbar";
 import Carausel from "./component/Carausel";
 import Video from "./component/Video";
+import Footer from "./component/Footer";
 import foto1 from "../src/assets/1.jpg";
 function App() {
   return (
@@ -16,9 +17,11 @@ function App() {
           <br></br>
           <hr></hr>
         </section>
-
         <section id="content">
           <Video />
+        </section>
+        <section id="Footer">
+        <Footer />
         </section>
       </div>
 
