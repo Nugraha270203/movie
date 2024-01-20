@@ -24,7 +24,7 @@ function Navbar() {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white " href="#">
-                                <FontAwesomeIcon icon={faStar} style={{ marginRight: '0.5rem' }}/>Populer
+                                <FontAwesomeIcon icon={faStar} style={{ marginRight: '0.5rem' }}/>popular
                             </a>
                         </li>
                         <li class="nav-item dropdown">

@@ -7,7 +7,7 @@ function Footer() {
         <>
             <div class="card bg-dark shadow text-center">
 
-                <a class="navbar-brand text-white ml-2 mt-4" href="#">
+                <a class="navbar-brand text-white ml-2 mt-4" href="/Login">
                     <img src={bg1} style={{ height: "2rem" }}></img>
                 </a>
                 <div class="card-body text-white">
