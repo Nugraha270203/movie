@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from "./component/Navbar";
+import Carausel from "./component/Carausel";
+import Video from "./component/Video";
+import foto1 from "../src/assets/1.jpg";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="bg-dark">
+        <Navbar />
+        <section id="home">
+          <br></br>
+          <br></br>
+          <div class="mt-4 card text-bg-dark" style={{ width: "70%", marginLeft: "auto", marginRight: "auto" }}>
+            <Carausel />
+          </div>
+          <br></br>
+          <hr></hr>
+        </section>
+
+        <section id="content">
+          <Video />
+        </section>
+      </div>
+
+    </>
   );
 }
 
