@@ -21,7 +21,7 @@ function App() {
           <Video />
         </section>
         <section id="Footer">
-        <Footer />
+          <Footer />
         </section>
       </div>
 

@@ -1,18 +1,35 @@
 import "../admin/index.css"
+import bg1 from "../assets/logo2.png"
 
 function Login() {
     return (
         <>
             <div className="bg">
                 <div className="container">
-                    <div className="d-flex justify-content-center" style={{height:"100vh"}}>
-                        <div class="card my-auto bg-dark" style={{width:"200rem"}}>
+                    <div className="d-flex justify-content-center" style={{ height: "100vh" }}>
+                        <div class="card shadow my-auto bg-dark" style={{ width: "25rem" }}>
                             <div class="card-body text-white shadow">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
+                                <div className="container d-flex justify-content-center">
+                                    <a class="navbar-brand text-white ml-2 mt-4" href="/Login">
+                                        <img src={bg1} style={{ height: "2rem" }}></img>
+                                    </a>
+
+                                </div>
+                                <div class="inputbox mx-auto mt-5 ">
+                                    <input required="required" type="text" />
+                                    <span>Username</span>
+                                    <i></i>
+                                </div>
+                                <div class="inputbox mx-auto mt-4 ">
+                                    <input required="required" type="text" />
+                                    <span>Password</span>
+                                    <i></i>
+                                </div>
+
+                                <div className="container mt-3 d-flex justify-content-center">
+                                    <button class="button fw-bold"> Login</button>
+                                </div>
+
                             </div>
                         </div>
                     </div>

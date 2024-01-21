@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Login from './admin/login';
+import Playvideo from './pages/Playvideo';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path='/*' element={<App />} />
         <Route path='/Login' element={<Login />} />
+        <Route path='/Playvideo' element={<Playvideo />} />
         
       </Routes>
     </BrowserRouter>
