@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Login from './admin/login';
 import Playvideo from './pages/Playvideo';
+import Dashboard from './admin/dashboard';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -16,6 +17,7 @@ root.render(
         <Route path='/*' element={<App />} />
         <Route path='/Login' element={<Login />} />
         <Route path='/Playvideo' element={<Playvideo />} />
+        <Route path='/Dashboard' element={<Dashboard />} />
         
       </Routes>
     </BrowserRouter>
