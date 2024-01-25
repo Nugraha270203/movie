@@ -18,7 +18,7 @@ function Navbar() {
                     </ul>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-white " href="#">
+                            <a class="nav-link text-white " href="/App">
                                 <FontAwesomeIcon icon={faHome} style={{ marginRight: '0.5rem' }} />Home
                             </a>
                         </li>
